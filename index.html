@@ -14,9 +14,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Montserrat:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
+      defer
+    ></script>
   </head>
   <body>
     <header class="header-main">
@@ -106,6 +115,47 @@
     </header>
 
     <main>
+      <section class="container section-ice">
+        <div class="image-ice">
+          <img
+            src="/images/ice-creams1.jpg"
+            alt="ice-creams"
+            srcset="
+              images/ice-creams1-mobile1x.jpg 440w,
+              images/ice-creams1-mobile2x.jpg 880w
+            "
+            sizes="(min-width: 768) 704px, (min-width: 1200px) 1013w, 100w"
+          />
+        </div>
+        <ul class="grid">
+          <li>
+            <div class="customer-lady">
+              <img
+                src="/images/customer1.jpg"
+                alt="customer"
+                srcset="
+                  images/customer1-mobile1x.jpg  85w,
+                  images/customer1-mobile2x.jpg 170w
+                "
+                sizes="(min-width: 768) 84px, (min-width: 1200px) 85w"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="feedback">
+              <p class="feedback-text">
+                I love visiting your cafe. You prepare the most delicious ice
+                cream in Los Angeles! In addition, you have beautiful serving,
+                cozy atmosphere and polite staff.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span class="feedback-name-location">Emily, Los Angeles</span>
+          </li>
+        </ul>
+      </section>
+
       <section class="section section-index">
         <div class="container">
           <div class="section-index__container">
@@ -268,7 +318,7 @@
                         images/Member1desktop1x.jpg 270w,
                         images/Member1desktop2x.jpg 540w
                       "
-                      sizes="(min-width: 768) 354px, (min-width: 1200px) 27ow, 100w"
+                      sizes="(min-width: 768) 354px, (min-width: 1200px) 270w, 100w"
                     />
                     <figcaption class="team-block__title">
                       <h4 class="team-block__text">John Doe</h4>
@@ -357,7 +407,7 @@
                         images/Member2desktop1x.jpg 270w,
                         images/Member2desktop2x.jpg 540w
                       "
-                      sizes="(min-width: 768) 354px, (min-width: 1200px) 27ow, 100w"
+                      sizes="(min-width: 768) 354px, (min-width: 1200px) 270w, 100w"
                     />
                     <figcaption class="team-block__title">
                       <h4 class="team-block__text">Kate Doe</h4>
@@ -446,7 +496,7 @@
                         images/Member3desktop1x.jpg 270w,
                         images/Member3desktop2x.jpg 540w
                       "
-                      sizes="(min-width: 768) 354px, (min-width: 1200px) 27ow, 100w"
+                      sizes="(min-width: 768) 354px, (min-width: 1200px) 270w, 100w"
                     />
                     <figcaption class="team-block__title">
                       <h4 class="team-block__text">John Doe</h4>
@@ -535,7 +585,7 @@
                         images/Member4desktop1x.jpg 270w,
                         images/Member4desktop2x.jpg 540w
                       "
-                      sizes="(min-width: 768) 354px, (min-width: 1200px) 27ow, 100w"
+                      sizes="(min-width: 768) 354px, (min-width: 1200px) 270w, 100w"
                     />
                     <figcaption class="team-block__title">
                       <h4 class="team-block__text">John Doe</h4>
