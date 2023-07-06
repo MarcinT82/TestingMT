@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 .image-ice {
-  margin-top: -25px;
+  margin-top: -35px;
   padding-bottom: 60px;
 }
 .feedback-text {
@@ -54,9 +54,4 @@
     (min-resolution: 2ppx) {
     background-image: url(../images/ice-cream-background2x.jpg);
   }
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
