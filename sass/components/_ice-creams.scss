@@ -1,7 +1,9 @@
 .customer-lady {
   width: 85px;
   height: 85px;
-  border-radius: 44px;
+  border: none;
+  border-radius: 50px;
+  overflow: hidden;
 }
 .image-ice {
   margin-top: -25px;
@@ -52,4 +54,9 @@
     (min-resolution: 2ppx) {
     background-image: url(../images/ice-cream-background2x.jpg);
   }
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
