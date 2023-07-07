@@ -1,47 +1,3 @@
-.customer-lady {
-  width: 85px;
-  height: 85px;
-  border: none;
-  border-radius: 50px;
-  overflow: hidden;
-}
-.image-ice {
-  margin-top: -35px;
-  padding-bottom: 60px;
-}
-.feedback-text {
-  font-family: "Montserrat";
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 30.6px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #fcfcfc;
-  width: 202px;
-}
-.grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  gap: 30px;
-}
-.feedback {
-  background: #84a178;
-  width: 280px;
-  border-radius: 10px;
-  padding: 40px;
-}
-.feedback-name-location {
-  width: 189px;
-  font-family: "Montserrat";
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 37.2px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #131313;
-}
 .section-ice {
   margin: 0 auto;
   max-width: 480px;
@@ -53,5 +9,52 @@
     (min-resolution: 192dpi),
     (min-resolution: 2ppx) {
     background-image: url(../images/ice-cream-background2x.jpg);
+  }
+  &__gallery {
+    margin-top: -35px;
+    padding-bottom: 60px;
+  }
+}
+.section-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  &__customer-container {
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  &__feedback-container {
+    background: #84a178;
+    width: 280px;
+    border-radius: 10px;
+    padding: 40px;
+  }
+  &__feedback-text {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30.6px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fcfcfc;
+    width: 202px;
+  }
+  &__name-location {
+    margin-bottom: 120px;
+  }
+  &__header {
+    width: 189px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 37.2px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #131313;
   }
 }

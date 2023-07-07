@@ -57,6 +57,9 @@
   }
   &__logo-navigation {
     display: flex;
+    @include desktop {
+      display: none;
+    }
   }
   &__logo {
     text-decoration: inherit;
@@ -178,4 +181,7 @@
   &__links:hover > &__phone {
     fill: var(--brand-color);
   }
+}
+.hide-me {
+  display: none;
 }
