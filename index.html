@@ -22,10 +22,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
-      defer
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </head>
   <body>
     <header class="header-main">
@@ -129,37 +126,112 @@
             sizes="(min-width: 768) 704px, (min-width: 1200px) 1013w, 100w"
           />
         </div>
-        <ul class="section-reviews">
-          <li>
-            <div class="section-reviews__customer-container">
-              <img
-                src="/images/customer1.jpg"
-                alt="customer1"
-                srcset="
-                  images/customer1-mobile1x.jpg  85w,
-                  images/customer1-mobile2x.jpg 170w
-                "
-                sizes="(min-width: 768) 84px, (min-width: 1200px) 85w"
-              />
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <ul class="section-reviews">
+                <li>
+                  <div class="section-reviews__customer-container">
+                    <img
+                      src="/images/customer1.jpg"
+                      alt="customer1"
+                      srcset="
+                        images/customer1-mobile1x.jpg  85w,
+                        images/customer1-mobile2x.jpg 170w
+                      "
+                      sizes="(min-width: 768) 84px, (min-width: 1200px) 85w"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="section-reviews__feedback-container">
+                    <p class="section-reviews__feedback-text">
+                      I love visiting your cafe. You prepare the most delicious
+                      ice cream in Los Angeles! In addition, you have beautiful
+                      serving, cozy atmosphere and polite staff.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="section-reviews__name-location">
+                    <h2 class="section-reviews__haeder feedback-name-location">
+                      Emily, Los Angeles
+                    </h2>
+                  </div>
+                </li>
+              </ul>
             </div>
-          </li>
-          <li>
-            <div class="section-reviews__feedback-container">
-              <p class="section-reviews__feedback-text">
-                I love visiting your cafe. You prepare the most delicious ice
-                cream in Los Angeles! In addition, you have beautiful serving,
-                cozy atmosphere and polite staff.
-              </p>
+            <div class="swiper-slide">
+              <ul class="section-reviews">
+                <li>
+                  <div class="section-reviews__customer-container">
+                    <img
+                      src="/images/customer1.jpg"
+                      alt="customer1"
+                      srcset="
+                        images/customer1-mobile1x.jpg  85w,
+                        images/customer1-mobile2x.jpg 170w
+                      "
+                      sizes="(min-width: 768) 84px, (min-width: 1200px) 85w"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="section-reviews__feedback-container">
+                    <p class="section-reviews__feedback-text">
+                      I love visiting your cafe. You prepare the most delicious
+                      ice cream in Los Angeles! In addition, you have beautiful
+                      serving, cozy atmosphere and polite staff.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="section-reviews__name-location">
+                    <h2 class="section-reviews__haeder feedback-name-location">
+                      Emily, Los Angeles
+                    </h2>
+                  </div>
+                </li>
+              </ul>
             </div>
-          </li>
-          <li>
-            <div class="section-reviews__name-location">
-              <h2 class="section-reviews__haeder feedback-name-location">
-                Emily, Los Angeles
-              </h2>
+            <div class="swiper-slide">
+              <ul class="section-reviews">
+                <li>
+                  <div class="section-reviews__customer-container">
+                    <img
+                      src="/images/customer1.jpg"
+                      alt="customer1"
+                      srcset="
+                        images/customer1-mobile1x.jpg  85w,
+                        images/customer1-mobile2x.jpg 170w
+                      "
+                      sizes="(min-width: 768) 84px, (min-width: 1200px) 85w"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div class="section-reviews__feedback-container">
+                    <p class="section-reviews__feedback-text">
+                      I love visiting your cafe. You prepare the most delicious
+                      ice cream in Los Angeles! In addition, you have beautiful
+                      serving, cozy atmosphere and polite staff.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="section-reviews__name-location">
+                    <h2 class="section-reviews__haeder feedback-name-location">
+                      Emily, Los Angeles
+                    </h2>
+                  </div>
+                </li>
+              </ul>
             </div>
-          </li>
-        </ul>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
 
       <section class="section section-index">
@@ -1066,5 +1138,6 @@
     ></script>
     <script defer src="./JS/mobile-menu.js"></script>
     <script src="./JS/modal.js"></script>
+    <script src=".JS/slider.js"></script>
   </body>
 </html>
